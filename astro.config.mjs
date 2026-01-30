@@ -13,10 +13,7 @@ export default defineConfig({
         fonts: [{
             provider: fontProviders.google(),
             name: "Roboto",
-            cssVariable: "--font-roboto",
-            provider: fontProviders.google(),
-            name: "Caveat",
-            cssVariable: "--font-caveat"
+            cssVariable: "--font-roboto"
         }]
     }
 });
