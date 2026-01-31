@@ -1,7 +1,7 @@
 // import Config file
 import { defineConfig } from "astro/config";
 
-// configure experimental.fonts object with one font
+// configure site URL for RSS
 export default defineConfig({
-  site: "https://example.com"
+  site: "https://sgastro.netlify.app"
 });
