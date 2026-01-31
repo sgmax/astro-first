@@ -9,6 +9,7 @@ import { defineConfig, fontProviders } from "astro/config";
 
 // configure experimental.fonts object with one font
 export default defineConfig({
+    site: "https://sgastro.netlify.app/",
     experimental: {
         fonts: [{
             provider: fontProviders.google(),

@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: My Third Blog Post
 author: Astro Learner
 description: "I had some challenges, but asking in the community really helped!"
@@ -8,15 +9,5 @@ image:
 pubDate: 2022-07-15
 tags: ["astro", "learning in public", "setbacks", "community"]
 ---
-[Home]  [About]  [Blog]
-
-# My Third Blog Post
-
-Published on: 2026-01-28
-
 ## What I've accomplished
 It wasn't always smooth sailing, but I'm enjoying building with Astro. And, the [Discord community](https://astro.build/chat) is really friendly and helpful!
-
-[Home]: http://localhost:4321/
-[About]: http://localhost:4321/about/
-[Blog]: http://localhost:4321/blog/
