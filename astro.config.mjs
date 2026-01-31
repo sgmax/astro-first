@@ -1,20 +1,7 @@
-// @ts-check
-// import { defineConfig } from 'astro/config';
-
-// https://astro.build/config
-// export default defineConfig({});
-
 // import Config file
-import { defineConfig, fontProviders } from "astro/config";
+import { defineConfig } from "astro/config";
 
 // configure experimental.fonts object with one font
 export default defineConfig({
-    site: "https://sgastro.netlify.app/",
-    experimental: {
-        fonts: [{
-            provider: fontProviders.google(),
-            name: "Roboto",
-            cssVariable: "--font-roboto"
-        }]
-    }
+  site: "https://example.com"
 });
